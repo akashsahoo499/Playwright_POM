@@ -1,0 +1,27 @@
+{
+  "name": "pom_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Single-Data": "npx playwright test tests/HRMSingleData.spec.ts",
+    "Allure-report": "npx allure serve allure-results",
+    "All-Test": "npx playwright test",
+    "Multiple-json": "npx playwright test tests/MultipleDataUsingJson.spec.ts",
+    "Excel-Data":"npx playwright test tests/AddMultipleExcel.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0",
+    "allure-commandline": "^2.41.0",
+    "allure-playwright": "^3.8.0",
+    "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
