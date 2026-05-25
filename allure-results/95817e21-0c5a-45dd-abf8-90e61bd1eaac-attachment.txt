@@ -1,0 +1,9 @@
+Created User with ID:8477708
+Created User with ID:hyderabadtenali@example.com
+{
+  id: 8477708,
+  name: 'Tenali Ramakrishna',
+  email: 'hyderabadtenali@example.com',
+  gender: 'male',
+  status: 'active'
+}
